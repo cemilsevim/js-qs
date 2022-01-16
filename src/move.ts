@@ -93,10 +93,10 @@ export default function move(list: List, sourceId: string, destinationId: string
   // removes file from source folder
   sourceFolder.files = sourceFolder.files.filter((file: File) => file.id !== sourceValue.id);
 
-  // pushed source file to new folder
+  // pushes source file to new folder
   destinationFolder.files.push(sourceValue);
 
-  // sets source folder and destination folders to new list
+  // sets source, destination folders to new list
   const newList: List = list.map((folder) => {
     let newFolder = folder;
     if (folder.id === sourceFolder.id) {
