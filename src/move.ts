@@ -11,11 +11,11 @@ type Folder = {
 
 type Found = {
   source: {
-    value?: Folder | File | undefined;
+    value?: Folder | File;
     folder?: Folder;
   };
   destination: {
-    value?: Folder | File | undefined;
+    value?: Folder | File;
     folder?: Folder;
   };
 };
