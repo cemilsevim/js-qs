@@ -1,5 +1,5 @@
 {
-  "name": "js-question",
+  "name": "js-qs",
   "license": "MIT",
   "scripts": {
     "test": "jest",
